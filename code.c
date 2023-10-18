@@ -7,7 +7,7 @@ int main() {
     // Membuka file dengan file pointer
     ptrFile = fopen("data.txt", "r");
 
-    // Buffer untuk menyimpan string dari file
+    // Buffer untuk menyimpan string dari file yang akan dibaca
     char buffer[255];
 
     if(ptrFile == NULL) {
